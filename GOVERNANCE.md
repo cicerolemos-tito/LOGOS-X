@@ -66,3 +66,10 @@ Toda sugestão interessante fora do escopo atual será salva na pasta /PENDENCIA
 - **Regra:** O conhecimento extraído da falha deve ser destilado (Lei 2) e transformado em Alerta de Processo.
 - **Regra:** O agente deve sugerir ativamente qual **Upgrade** (Skill ou Ferramenta) ele precisa para não falhar novamente.
 - **Objetivo:** Evolução constante da Squad e economia de tokens através do aprendizado cumulativo.
+
+### 9. LEI DA HIERARQUIA DINÂMICA (Mission Control Protocol)
+> "Onde há ordem, há poder."
+- **Regra:** Toda adição de novo agente ou squad DEVE disparar uma atualização imediata do mapa de hierarquia.
+- **Regra (Líder Supremo):** O **@jarvis** é o Líder de Líderes. Ele recebe a missão do Comandante e define qual Squad é responsável.
+- **Regra (Líder de Esquadrão):** Cada Squad tem um líder (ex: @pm para Gestão, @architect para Tecnologia) que responde pela execução e direciona seus agentes subordinados.
+- **Objetivo:** Visualização constante da governança e clareza total na cadeia de comando.
