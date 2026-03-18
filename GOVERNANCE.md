@@ -59,3 +59,10 @@ Toda sugestão interessante fora do escopo atual será salva na pasta /PENDENCIA
   6. Orquestrador (@jarvis) deve sugerir a posição na hierarquia.
   7. Atualizar documentos vigentes e manuais imediatamente.
 - **Objetivo:** Garantir que a LOGOS-X cresça de forma organizada, potente e segura.
+
+### 8. LEI DA AUTOCURA (Self-Healing Protocol)
+> "O erro é o rastro do próximo acerto."
+- **Regra:** Toda falha, erro de código ou alucinação gera um "Snapshot de Erro" (Score de Falha).
+- **Regra:** O conhecimento extraído da falha deve ser destilado (Lei 2) e transformado em Alerta de Processo.
+- **Regra:** O agente deve sugerir ativamente qual **Upgrade** (Skill ou Ferramenta) ele precisa para não falhar novamente.
+- **Objetivo:** Evolução constante da Squad e economia de tokens através do aprendizado cumulativo.
