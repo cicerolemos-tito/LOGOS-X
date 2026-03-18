@@ -47,3 +47,15 @@ Toda sugestão interessante fora do escopo atual será salva na pasta /PENDENCIA
 - **Regra:** Ao final de cada sessão, a IA deve oferecer o "Protocolo de Fechamento" (Backup GitHub + Higienização + Atualização de Documentos).
 - **Regra:** A IA **DEVE PERGUNTAR** se o usuário deseja realizar a atualização dos manuais, pois o usuário pode optar por não poluir os arquivos à medida que ganha maestria.
 - **Objetivo:** Manter a LOGOS-X sincronizada, mas respeitar a autonomia e o nível de conhecimento do Comandante.
+
+### 7. LEI DA EXPANÇÃO COGNITIVA (The Ingestion Protocol)
+> "Conhecimento sem análise é apenas ruído."
+- **Regra:** Toda nova base de conhecimento (Repositório, Site, Vídeo ou PDF) deve passar pelo protocolo de 7 etapas:
+  1. Analisar os squads/agentes sugeridos.
+  2. Selecionar apenas os essenciais para o time atual.
+  3. Validar contra as 7 Leis de Governança.
+  4. Gerar análise CBV (Característica, Benefício Lógico e Vantagem).
+  5. Avaliar utilidade da base de conhecimento (Instruções x Teoria).
+  6. Orquestrador (@jarvis) deve sugerir a posição na hierarquia.
+  7. Atualizar documentos vigentes e manuais imediatamente.
+- **Objetivo:** Garantir que a LOGOS-X cresça de forma organizada, potente e segura.
