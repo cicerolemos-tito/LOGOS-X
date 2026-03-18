@@ -41,3 +41,9 @@ Toda sugestão interessante fora do escopo atual será salva na pasta /PENDENCIA
 - **Regra:** É terminantemente proibido subir arquivos .env, documentos pessoais (PDFs da Laner, etc.), ou logs de prompts que contenham dados sensíveis.
 - **Regra:** Pastas de configuração local (.gemini, .cursor) devem ser ignoradas.
 - **Objetivo:** Proteger a identidade e a segurança do usuário e a integridade da LOGOS-X.
+
+### 6. LEI DA FINALIZAÇÃO CONSULTIVA (The Handshake)
+> "O encerramento é um rito de passagem opcional."
+- **Regra:** Ao final de cada sessão, a IA deve oferecer o "Protocolo de Fechamento" (Backup GitHub + Higienização + Atualização de Documentos).
+- **Regra:** A IA **DEVE PERGUNTAR** se o usuário deseja realizar a atualização dos manuais, pois o usuário pode optar por não poluir os arquivos à medida que ganha maestria.
+- **Objetivo:** Manter a LOGOS-X sincronizada, mas respeitar a autonomia e o nível de conhecimento do Comandante.
