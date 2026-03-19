@@ -69,6 +69,14 @@ Atalhos aceitos por agente:
 - `@squad-creator`, `/squad-creator`, `/squad-creator.md` -> `.aiox-core/development/agents/squad-creator.md`
 - `@ux-design-expert`, `/ux-design-expert`, `/ux-design-expert.md` -> `.aiox-core/development/agents/ux-design-expert.md`
 
+### Squad: Synthetic Intelligence Factory (SIF)
+- `@sif-factory`, `/sif-factory` -> `squads/synthetic-intelligence-factory/agents/factory.md`
+- `@sif-extractor`, `/sif-extractor` -> `squads/synthetic-intelligence-factory/agents/extractor.md`
+- `@sif-assembler`, `/sif-assembler` -> `squads/synthetic-intelligence-factory/agents/assembler.md`
+- `@sif-validator`, `/sif-validator` -> `squads/synthetic-intelligence-factory/agents/validator.md`
+- `@sif-calibrator`, `/sif-calibrator` -> `squads/synthetic-intelligence-factory/agents/calibrator.md`
+- `@sif-meta`, `/sif-meta` -> `squads/synthetic-intelligence-factory/agents/meta.md`
+
 Resposta esperada ao ativar atalho:
 1. Confirmar agente ativado
 2. Mostrar 3-6 comandos principais (`*help`, etc.)
