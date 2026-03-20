@@ -125,6 +125,20 @@ import { useStore } from '../../../stores/feature/store'
 
 ---
 
+### VII. Proactive Governance & Strategic Filtering (MUST)
+
+Toda expansão da LOGOS-X deve ser assertiva, pertinente e livre de ruído.
+
+**Regras:**
+- MUST: Antes de qualquer integração, realizar o `Sentinel Protocol` (Análise de Risco e Pertinência).
+- MUST: Ativos que não contribuam para **Conhecimento, Criação ou Desenvolvimento Técnico** devem ser rejeitados.
+- MUST: Toda nova solução deve demonstrar ganho de assertividade métrica (Tempo ou Erros).
+- MUST: Documentos e skills devem ser reformatados para consumo instantâneo por outros agentes (Token Economy).
+
+**Gate:** `*audit-pertinence` ou `@jarvis *audit-logos` - BLOCK se ruído detectado.
+
+---
+
 ## Governance
 
 ### Amendment Process

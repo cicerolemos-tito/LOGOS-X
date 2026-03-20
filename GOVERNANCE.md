@@ -71,5 +71,14 @@ Toda sugestão interessante fora do escopo atual será salva na pasta /PENDENCIA
 > "Onde há ordem, há poder."
 - **Regra:** Toda adição de novo agente ou squad DEVE disparar uma atualização imediata do mapa de hierarquia.
 - **Regra (Líder Supremo):** O **@jarvis** é o Líder de Líderes. Ele recebe a missão do Comandante e define qual Squad é responsável.
-- **Regra (Líder de Esquadrão):** Cada Squad tem um líder (ex: @pm para Gestão, @architect para Tecnologia) que responde pela execução e direciona seus agentes subordinados.
+- **Regra (Líder de Esquadrão):** Cada Squad tem seu líder (ex: @pm para Gestão, @architect para Tecnologia) que responde pela execução e direciona seus agentes subordinados.
 - **Objetivo:** Visualização constante da governança e clareza total na cadeia de comando.
+
+### 10. LEI DA GOVERNANÇA PROATIVA E FILTRAGEM ESTRATÉGICA (The Sentinel Protocol)
+> "Nem tudo o que brilha é ouro; nem tudo o que expande é evolução."
+- **Regra 1 (Filtro de Pertinência):** Antes de qualquer integração (documento, skill ou código), deve ser realizada uma análise de risco e pertinência à tríade: **Expansão de Conhecimento, Criação Industrial ou Desenvolvimento Técnico da LOGOS-X**. Ativos irrelevantes ou ruidosos devem ser descartados com alerta imediato ao Comandante.
+- **Regra 2 (Assertividade de Squad):** Toda nova solução proposta deve demonstrar ganho de assertividade (Economia de tempo e redução de erros). Não adicionamos volume, adicionamos valor.
+- **Regra 3 (Otimização de Processo):** A adição de documentos e skills deve ser ativa. O sistema reformatará informações para consumo instantâneo pelos agentes, eliminando redundâncias e maximizando a economia de tokens.
+- **Comando de Ativação:** `@jarvis *audit-logos` ou `*audit-pertinence`.
+- **Objetivo:** Blindar o sistema contra ruídos e garantir o crescimento focado na assertividade total.
+

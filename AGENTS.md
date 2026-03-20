@@ -11,6 +11,7 @@ Siga `.aiox-core/constitution.md` como fonte de verdade:
 - No Invention
 - Quality First
 - Absolute Imports
+- **Lei 10: Governança Proativa (Filtragem e Assertividade)**
 
 ## Workflow Obrigatorio
 
@@ -55,6 +56,10 @@ Preferencia de ativacao no Codex CLI:
 
 Quando a mensagem do usuario for um atalho de agente, carregue o arquivo correspondente em `.aiox-core/development/agents/` (fallback: `.codex/agents/`), renderize o greeting via `generate-greeting.js` e assuma a persona ate receber `*exit`.
 
+### Core Orchestration
+- `@jarvis`, `/jarvis` -> O Orquestrador Supremo.
+  - Commands: `*ingest`, `*audit-logos`, `*audit-pertinence`, `*process-knowledge`.
+
 Atalhos aceitos por agente:
 - `@aiox-master`, `/aiox-master`, `/aiox-master.md` -> `.aiox-core/development/agents/aiox-master.md`
 - `@analyst`, `/analyst`, `/analyst.md` -> `.aiox-core/development/agents/analyst.md`
@@ -76,6 +81,40 @@ Atalhos aceitos por agente:
 - `@sif-validator`, `/sif-validator` -> `squads/synthetic-intelligence-factory/agents/validator.md`
 - `@sif-calibrator`, `/sif-calibrator` -> `squads/synthetic-intelligence-factory/agents/calibrator.md`
 - `@sif-meta`, `/sif-meta` -> `squads/synthetic-intelligence-factory/agents/meta.md`
+
+### Squad: Nirvana Squad Creator (NSC)
+- `@nsc-orchestrator`, `/nsc-orchestrator` -> `squads/nirvana-squad-creator/agents/squad-orchestrator.md`
+- `@nsc-analyzer`, `/nsc-analyzer` -> `squads/nirvana-squad-creator/agents/squad-analyzer.md`
+- `@nsc-agent-creator`, `/nsc-agent-creator` -> `squads/nirvana-squad-creator/agents/squad-agent-creator.md`
+- `@nsc-validator`, `/nsc-validator` -> `squads/nirvana-squad-creator/agents/squad-validator.md`
+
+### Squad: Ultimate Landing Page (ULP)
+- `@ulp-strategist`, `/ulp-strategist` -> `squads/ultimate-landingpage/agents/lp-strategist.md`
+- `@ulp-copywriter`, `/ulp-copywriter` -> `squads/ultimate-landingpage/agents/lp-copywriter.md`
+- `@ulp-design-architect`, `/ulp-design-architect` -> `squads/ultimate-landingpage/agents/lp-design-architect.md`
+- `@ulp-frontend-dev`, `/ulp-frontend-dev` -> `squads/ultimate-landingpage/agents/lp-frontend-dev.md`
+- `@ulp-reviewer`, `/ulp-reviewer` -> `squads/ultimate-landingpage/agents/lp-reviewer.md`
+
+### Squad: Squads Genius Apex (APEX)
+Focado em Context Engineering e Destilação de Conhecimento de Elite.
+- `@apex-orquestrista`, `/apex-orquestrista` -> `squads/squads-genius-apex/agents/apex-orquestrista.md`
+- `@apex-maven`, `/apex-maven` -> `squads/squads-genius-apex/agents/maven-arquiteta.md`
+- `@apex-spark`, `/apex-spark` -> `squads/squads-genius-apex/agents/spark-alquimista.md`
+- `@apex-trim`, `/apex-trim` -> `squads/squads-genius-apex/agents/trim-escultor.md`
+- `@apex-vigil`, `/apex-vigil` -> `squads/squads-genius-apex/agents/vigil-validadora.md`
+
+### Squad: Skeptic Protocol (SKEPTIC)
+Red Teaming, Validação de Falhas e Robustez Extrema.
+- `@skeptic-orchestrator`, `/skeptic-orchestrator` -> `squads/skeptic-protocol/agents/skeptic-orchestrator.md`
+- `@skeptic-redteamer`, `/skeptic-redteamer` -> `squads/skeptic-protocol/agents/red-teamer.md`
+- `@skeptic-predictor`, `/skeptic-predictor` -> `squads/skeptic-protocol/agents/failure-predictor.md`
+- `@skeptic-tester`, `/skeptic-tester` -> `squads/skeptic-protocol/agents/test-engineer.md`
+- `@skeptic-solution`, `/skeptic-solution` -> `squads/skeptic-protocol/agents/solution-implementer.md`
+
+### Technical Skills: Squad Engine
+- `squad-loader` -> `scripts/squad-loader/skills/squad-loader/SKILL.md`
+- `squad-parser` -> `scripts/squad-loader/lib/squad-parser.ts`
+- `agent-adapter` -> `scripts/squad-loader/lib/agent-adapter.ts`
 
 Resposta esperada ao ativar atalho:
 1. Confirmar agente ativado
