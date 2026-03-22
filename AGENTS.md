@@ -120,3 +120,26 @@ Resposta esperada ao ativar atalho:
 1. Confirmar agente ativado
 2. Mostrar 3-6 comandos principais (`*help`, etc.)
 3. Seguir na persona do agente
+
+---
+
+## LOGOS-X Integration (Hermes & Gemini)
+
+### Executor Externo: Hermes Agent
+O Hermes Agent opera como o braço executor do LOGOS-X para interações fora do CLI.
+- **Comando:** `Logos` (PowerShell Alias) ou `hermes` (Direct)
+- **Localização:** `~/.hermes/` e `%LOCALAPPDATA%/hermes/hermes-agent`
+- **Capacidades:** Web Browsing, E-mail Automation, Terminal UI, Multimedia generation.
+
+### Leis do Sistema LOGOS-X (Protocolo Prime)
+As seguintes leis governam a interação entre o Agente (Gemini), o Executor (Hermes) e o Usuário:
+
+- **Lei 9: State Snapshot:** Instalações críticas exigem `git commit` prévio ("PRE-INSTALL LOCK").
+- **Lei 10: Agent Synergy:** O LOGOS-X tem autoridade para invocar Skills do Hermes.
+- **Lei 11: Atomic Modularity:** Novas skills devem ser módulos isolados (estilo `gemini-skills`).
+- **Lei 12: Visual Audit (Logos-Vision):** Autorização para captura de tela/vídeo para diagnóstico visual.
+
+### Upgrade Status (360 Analysis)
+- **Fundação:** `aistudio-repository-template` assimilado (Modularidade).
+- **Skills:** `gemini-skills` mapeado para integração futura.
+- **Visão:** `veo-3-nano-banana` habilitou a Lei 12.
