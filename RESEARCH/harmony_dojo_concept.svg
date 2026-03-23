@@ -1,0 +1,51 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Céu/Fundo -->
+  <rect width="100%" height="100%" fill="#11001c" />
+  
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#240046;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10002b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3c096c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10002b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Montanhas Equalizadoras (Background) -->
+  <path d="M 0 300 L 50 200 L 100 300 L 150 150 L 200 300 L 250 100 L 300 300 L 350 180 L 400 300 L 450 120 L 500 300 L 550 220 L 600 300 L 650 160 L 700 300 L 750 250 L 800 300 V 450 H 0 Z" fill="#5a189a" opacity="0.3" />
+  <path d="M 0 320 L 60 250 L 120 320 L 180 200 L 240 320 L 300 150 L 360 320 L 420 220 L 480 320 L 540 180 L 600 320 L 660 250 L 720 320 L 800 280 V 450 H 0 Z" fill="#7b2cbf" opacity="0.5" />
+
+  <!-- Chão do Dojo (Perspectiva) -->
+  <path d="M 0 350 L 800 350 L 700 450 L 100 450 Z" fill="url(#floorGrad)" stroke="#e0aaff" stroke-width="2" />
+  
+  <!-- Pauta Musical no Chão -->
+  <line x1="100" y1="370" x2="700" y2="370" stroke="#e0aaff" stroke-width="1" opacity="0.5" />
+  <line x1="80" y1="390" x2="720" y2="390" stroke="#e0aaff" stroke-width="1" opacity="0.5" />
+  <line x1="60" y1="410" x2="740" y2="410" stroke="#e0aaff" stroke-width="1" opacity="0.5" />
+  <line x1="40" y1="430" x2="760" y2="430" stroke="#e0aaff" stroke-width="1" opacity="0.5" />
+
+  <!-- Elementos Antônia (Esquerda - Ouro) -->
+  <rect x="50" y="50" width="40" height="200" fill="white" opacity="0.1" />
+  <rect x="100" y="30" width="40" height="250" fill="white" opacity="0.15" />
+  <rect x="150" y="80" width="40" height="180" fill="white" opacity="0.1" />
+  <!-- Teclas Pretas Flutuantes -->
+  <rect x="85" y="60" width="10" height="100" fill="#ffd700" opacity="0.8" />
+  <rect x="135" y="40" width="10" height="120" fill="#ffd700" opacity="0.8" />
+
+  <!-- Elementos Estela (Direita - Ciano) -->
+  <!-- Cordas de Violino Gigantes -->
+  <line x1="600" y1="0" x2="600" y2="350" stroke="#00ffff" stroke-width="2" opacity="0.6" stroke-dasharray="5,5" />
+  <line x1="650" y1="0" x2="650" y2="350" stroke="#00ffff" stroke-width="4" opacity="0.8" />
+  <line x1="700" y1="0" x2="700" y2="350" stroke="#00ffff" stroke-width="2" opacity="0.6" stroke-dasharray="5,5" />
+  <line x1="750" y1="0" x2="750" y2="350" stroke="#00ffff" stroke-width="1" opacity="0.4" />
+
+  <!-- Clave de Sol Central (Holograma) -->
+  <text x="400" y="250" font-family="Times New Roman" font-size="150" fill="white" text-anchor="middle" opacity="0.1" font-style="italic">𝄞</text>
+
+  <!-- HUD Stage Name -->
+  <text x="400" y="50" font-family="Verdana" font-size="20" fill="#e0aaff" text-anchor="middle" font-weight="bold" letter-spacing="5">HARMONY DOJO</text>
+  <text x="400" y="70" font-family="Verdana" font-size="10" fill="#c77dff" text-anchor="middle">STAGE 1: THE OVERTURE</text>
+
+</svg>

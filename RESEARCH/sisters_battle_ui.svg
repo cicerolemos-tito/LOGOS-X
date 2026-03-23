@@ -1,0 +1,40 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Cinematográfico -->
+  <rect width="100%" height="100%" fill="#0a0a1a" />
+  <defs>
+    <linearGradient id="antoniaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="estelaGrad" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Divisores de Poder -->
+  <rect x="0" y="0" width="300" height="400" fill="url(#antoniaGrad)" />
+  <rect x="300" y="0" width="300" height="400" fill="url(#estelaGrad)" />
+
+  <!-- Antônia (Piano Warrior) -->
+  <text x="50" y="80" font-family="Verdana" font-size="28" fill="#ffd700" font-weight="bold">ANTÔNIA</text>
+  <text x="50" y="110" font-family="Verdana" font-size="12" fill="#ffd700">AGE: 11 | CLASS: PIANO WARRIOR</text>
+  <path d="M 50 140 L 250 140" stroke="#ffd700" stroke-width="2" />
+  <text x="50" y="320" font-family="Verdana" font-size="10" fill="#ffd700" opacity="0.8">SKILL: SONIC CHORD KICK</text>
+  <rect x="50" y="330" width="200" height="4" fill="#333" />
+  <rect x="50" y="330" width="180" height="4" fill="#ffd700" />
+
+  <!-- Estela (Violin Ninja) -->
+  <text x="350" y="80" font-family="Verdana" font-size="28" fill="#00ffff" font-weight="bold">ESTELA</text>
+  <text x="350" y="110" font-family="Verdana" font-size="12" fill="#00ffff">AGE: 08 | CLASS: VIOLIN NINJA</text>
+  <path d="M 350 140 L 550 140" stroke="#00ffff" stroke-width="2" />
+  <text x="350" y="320" font-family="Verdana" font-size="10" fill="#00ffff" opacity="0.8">SKILL: HARMONIC STRIKE</text>
+  <rect x="350" y="330" width="200" height="4" fill="#333" />
+  <rect x="350" y="330" width="160" height="4" fill="#00ffff" />
+
+  <!-- Logo de Centro -->
+  <circle cx="300" cy="200" r="50" stroke="white" stroke-width="1" fill="none" opacity="0.2" />
+  <text x="300" y="205" font-family="Impact" font-size="40" fill="white" text-anchor="middle">VS</text>
+  
+  <text x="300" y="380" font-family="Verdana" font-size="14" fill="white" text-anchor="middle" font-weight="bold" opacity="0.5">PRESS START TO FIGHT</text>
+</svg>
