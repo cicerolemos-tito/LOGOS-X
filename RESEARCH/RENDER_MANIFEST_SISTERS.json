@@ -1,0 +1,43 @@
+{
+  "project_name": "Sinfonia Sonis: The Sisters Battle",
+  "resolution": "3840x2160",
+  "fps": 24,
+  "duration": 90,
+  "render_engine": "Kling-v1.5-Pro",
+  "audio_engine": "ElevenLabs-v2-Turbo",
+  "scenes": [
+    {
+      "id": "SCENE_01_INTRO",
+      "timestamp": "0:00-0:20",
+      "prompt": "Cinematic close-up, grand piano, warm sunset light. Antonia (11y, teal belt) plays deep bass notes, soundwaves ripple in indigo. Estela (8y, gold belt) plays high notes, light filaments sparkle. Unreal Engine 5 aesthetic, 4K, 35mm lens.",
+      "image_ref": "ASSETS/fotos-meninas.jpeg",
+      "audio_prompt": "Deep cinematic piano + bright arpeggios, building tension."
+    },
+    {
+      "id": "SCENE_02_ACTION",
+      "timestamp": "0:20-0:50",
+      "prompt": "High-octane martial arts choreography. Antonia uses soundwaves to push enemies back. Estela creates light bridges to run on walls. Dynamic camera angles, slow-motion impacts, neon trails. Cyberpunk dojo background.",
+      "audio_prompt": "Epic orchestral beats sync with martial arts impacts."
+    },
+    {
+      "id": "SCENE_03_CLIMAX",
+      "timestamp": "0:50-1:20",
+      "prompt": "Ultimate Combo Move. Antonia screams, soundwave amplifies Estela's light beam. A massive prism of energy traps the villain. Explosion of colors (Indigo + Gold).",
+      "voice_overlay": {
+        "Antonia": "Sinfonia Sonis... ATIVAR!",
+        "Estela": "Luz Estelar... BRILHAR!",
+        "Unison": "União das Irmãs!"
+      }
+    },
+    {
+      "id": "SCENE_04_OUTRO",
+      "timestamp": "1:20-1:30",
+      "prompt": "Peaceful resolution. The sisters sit back at the piano, exhausted but smiling. They play a final C-Major chord. Fade to black with logo 'Musical Martial Arts'.",
+      "audio_prompt": "Soft piano coda, triumphant but gentle."
+    }
+  ],
+  "safety_check": {
+    "skeptic_protocol": "PASSED",
+    "content_filter": "STRICT_FAMILY_FRIENDLY"
+  }
+}
