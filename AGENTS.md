@@ -111,6 +111,13 @@ Red Teaming, Validação de Falhas e Robustez Extrema.
 - `@skeptic-tester`, `/skeptic-tester` -> `squads/skeptic-protocol/agents/test-engineer.md`
 - `@skeptic-solution`, `/skeptic-solution` -> `squads/skeptic-protocol/agents/solution-implementer.md`
 
+### Squad: Flywheel Core (FLYWHEEL)
+Aceleração de Execução Cíclica e Swarm Intelligence.
+- `@fly-architect`, `/fly-architect` -> `squads/flywheel-core/agents/flywheel-architect.md`
+- `@fly-bead-manager`, `/fly-bead-manager` -> `squads/flywheel-core/agents/bead-manager.md`
+- `@fly-swarm`, `/fly-swarm` -> `squads/flywheel-core/agents/swarm-coordinator.md`
+- `@fly-hardening`, `/fly-hardening` -> `squads/flywheel-core/agents/hardening-specialist.md`
+
 ### Technical Skills: Squad Engine
 - `squad-loader` -> `scripts/squad-loader/skills/squad-loader/SKILL.md`
 - `squad-parser` -> `scripts/squad-loader/lib/squad-parser.ts`

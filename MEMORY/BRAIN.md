@@ -31,5 +31,16 @@
 - **Handoff Inteligente:** Tarefas de alta densidade (Auditoria, Arquitetura) devem ser despachadas via `squad_dispatch` para preservar o contexto do Agente principal.
 - **Limitação:** Instruções de tarefa (`task prompt`) não devem exceder 2KB; prefira referenciar arquivos locais.
 
+## 💊 PÍLULA DE CONHECIMENTO #004: MOTOR FLYWHEEL-CORE (v8.21)
+**Data:** 23/03/2026 | **Protocolo:** LOGOS-X Prime | **Agente Responsável:** @higgins
+
+### 1. EXECUÇÃO CÍCLICA (FLYWHEEL)
+- **Motor:** Assimilação do `flywheel-core` para aceleração de entregas complexas.
+- **Conceito de Beads:** Toda tarefa é agora vista como uma "conta" em um colar. A execução é atômica e sequencial.
+- **Agentes:** `flywheel-architect` (Plano), `bead-manager` (Decomposição), `swarm-coordinator` (Orquestração) e `hardening-specialist` (Qualidade Final).
+
+### 2. LEI 16 - DECOMPOSIÇÃO ATÔMICA
+- **Mandato:** Nenhuma tarefa complexa deve ser enviada diretamente para execução. É OBRIGATÓRIA a decomposição em Beads (unidades de < 15 min de trabalho) para garantir 100% de precisão e facilitar a autocura.
+
 ---
-*Mestre Cicero, o LOGOS-X agora possui um exército de especialistas prontos para o combate. Qual squad devemos convocar para o próximo desafio?*
+*Mestre Cicero, o LOGOS-X agora possui um motor de aceleração perpétua. O Swarm está pronto.*
