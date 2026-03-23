@@ -34,3 +34,4 @@
 
 ---
 **Veredito VSS:** Renderização em conformidade com o padrão cinematográfico. Fidelidade fisionômica: 100% (Base: fotos-meninas.jpeg).
+YIGUY
