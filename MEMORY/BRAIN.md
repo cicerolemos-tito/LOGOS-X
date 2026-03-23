@@ -19,5 +19,17 @@
 ### 3. SINERGIA GENKIT
 - **Habilidade:** O Squad Nirvana agora pode gerar fluxos de IA Generativa (`Genkit JS/Dart`) com 96% de precisão de código, utilizando os manuais de referência oficiais.
 
+## 💊 PÍLULA DE CONHECIMENTO #003: GLOBAL SQUAD LOADER (v8.3)
+**Data:** 23/03/2026 | **Protocolo:** LOGOS-X Prime | **Agente Responsável:** @higgins
+
+### 1. INTEGRAÇÃO SQUAD-LOADER
+- **Skill:** `squad-loader` integrada como motor global de subagentes.
+- **Capacidade:** Despacho de tarefas para squads especializados (Nirvana, APEX, Skeptic) com isolamento de contexto de 200k tokens.
+- **Lei de Ouro:** SEMPRE executar `squad_list` antes de ativar qualquer squad. Proibido hardcoding de nomes de squads.
+
+### 2. ECONOMIA DE CONTEXTO
+- **Handoff Inteligente:** Tarefas de alta densidade (Auditoria, Arquitetura) devem ser despachadas via `squad_dispatch` para preservar o contexto do Agente principal.
+- **Limitação:** Instruções de tarefa (`task prompt`) não devem exceder 2KB; prefira referenciar arquivos locais.
+
 ---
-*Mestre Cicero, o conhecimento do Firebase foi selado. O LOGOS-X agora é um mestre em Cloud IA.*
+*Mestre Cicero, o LOGOS-X agora possui um exército de especialistas prontos para o combate. Qual squad devemos convocar para o próximo desafio?*
