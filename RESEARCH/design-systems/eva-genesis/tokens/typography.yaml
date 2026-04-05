@@ -1,0 +1,63 @@
+# EVA GENESIS — Typography Tokens v1.0.0
+# Dense tactical readout — smaller base, tighter tracking
+
+families:
+  display: "'Orbitron', 'Rajdhani', 'system-ui', sans-serif"
+  sans: "'Geist Sans', 'Inter', 'system-ui', '-apple-system', sans-serif"
+  mono: "'Geist Mono', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace"
+
+scale:
+  xs:
+    size: "0.6875rem"        # 11px
+    lineHeight: "1rem"
+    tracking: "0.06em"
+  sm:
+    size: "0.8125rem"        # 13px
+    lineHeight: "1.125rem"
+    tracking: "0.03em"
+  base:
+    size: "0.9375rem"        # 15px — slightly dense
+    lineHeight: "1.5rem"
+    tracking: "0.01em"
+  lg:
+    size: "1.0625rem"        # 17px
+    lineHeight: "1.625rem"
+    tracking: "0"
+  xl:
+    size: "1.25rem"          # 20px
+    lineHeight: "1.75rem"
+    tracking: "-0.01em"
+  2xl:
+    size: "1.5rem"           # 24px
+    lineHeight: "1.875rem"
+    tracking: "-0.02em"
+  3xl:
+    size: "2rem"             # 32px
+    lineHeight: "2.25rem"
+    tracking: "-0.03em"
+  4xl:
+    size: "2.75rem"          # 44px
+    lineHeight: "3rem"
+    tracking: "-0.04em"
+  5xl:
+    size: "3.75rem"          # 60px
+    lineHeight: "1"
+    tracking: "-0.05em"
+  6xl:
+    size: "5rem"             # 80px
+    lineHeight: "1"
+    tracking: "-0.06em"
+
+weights:
+  normal: 400
+  medium: 500
+  semibold: 600
+  bold: 700
+  black: 900
+
+conventions:
+  hero_headings: "font-display, text-5xl/text-6xl, uppercase, tracking-wider, font-black"
+  section_headings: "font-display, text-3xl/text-4xl, uppercase, tracking-wide, font-bold"
+  body: "font-sans, text-base, font-normal"
+  data_readout: "font-mono, text-sm/text-xs, tabular-nums"
+  labels: "font-sans, text-xs, uppercase, tracking-widest, font-semibold"

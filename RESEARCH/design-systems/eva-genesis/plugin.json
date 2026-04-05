@@ -1,0 +1,10 @@
+{
+  "name": "eva-genesis",
+  "description": "Canon-accurate Evangelion design system — 6 EVA unit themes, NERV HQ interfaces, MAGI voting, AT Field effects, Pattern Blue alerts, 15 components, 80+ OKLCH tokens.",
+  "version": "2.0.0",
+  "author": {
+    "name": "@darwim"
+  },
+  "license": "Proprietary",
+  "homepage": "https://myclaude.sh/p/eva-genesis"
+}

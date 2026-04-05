@@ -1,0 +1,27 @@
+# EVA GENESIS — Shadow Tokens v1.0.0
+# Heavy, directional, purple-tinted. Entry plug lighting aesthetic.
+
+elevation:
+  none: "none"
+  sm: "0 1px 3px oklch(5% 0.02 285 / 0.5)"
+  md: "0 4px 12px oklch(5% 0.03 300 / 0.4), 0 1px 3px oklch(5% 0.02 285 / 0.3)"
+  lg: "0 8px 32px oklch(5% 0.04 300 / 0.5), 0 2px 8px oklch(5% 0.02 285 / 0.3)"
+  xl: "0 16px 48px oklch(5% 0.05 300 / 0.6), 0 4px 16px oklch(5% 0.03 285 / 0.4)"
+  2xl: "0 24px 64px oklch(5% 0.06 300 / 0.7), 0 8px 24px oklch(5% 0.04 285 / 0.4)"
+
+glow:
+  primary: "0 0 20px oklch(45% 0.28 300 / 0.4), 0 0 60px oklch(45% 0.28 300 / 0.15)"
+  primary-intense: "0 0 30px oklch(55% 0.35 300 / 0.5), 0 0 80px oklch(45% 0.28 300 / 0.25)"
+  danger: "0 0 20px oklch(58% 0.25 25 / 0.4), 0 0 60px oklch(58% 0.25 25 / 0.15)"
+  danger-intense: "0 0 30px oklch(60% 0.30 25 / 0.5), 0 0 80px oklch(58% 0.25 25 / 0.25)"
+  sync: "0 0 20px oklch(68% 0.18 155 / 0.4), 0 0 60px oklch(68% 0.18 155 / 0.15)"
+  accent: "0 0 20px oklch(78% 0.18 85 / 0.4), 0 0 60px oklch(78% 0.18 85 / 0.15)"
+  teal: "0 0 20px oklch(62% 0.15 195 / 0.4), 0 0 60px oklch(62% 0.15 195 / 0.15)"
+
+inset:
+  sm: "inset 0 1px 2px oklch(5% 0.02 285 / 0.4)"
+  md: "inset 0 2px 6px oklch(5% 0.03 300 / 0.4)"
+
+ring:
+  focus: "0 0 0 2px oklch(8% 0.01 285), 0 0 0 4px oklch(55% 0.28 300 / 0.8)"
+  error: "0 0 0 2px oklch(8% 0.01 285), 0 0 0 4px oklch(58% 0.25 25 / 0.8)"

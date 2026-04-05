@@ -1,0 +1,128 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "eva-genesis": {
+    "$description": "EVA GENESIS Design Tokens — Dark brutalist, Evangelion-inspired",
+    "color": {
+      "surface": {
+        "$value": "oklch(8% 0.01 285)",
+        "$type": "color",
+        "$description": "Main background — deep void"
+      },
+      "surface-raised": {
+        "$value": "oklch(12% 0.01 285)",
+        "$type": "color",
+        "$description": "Cards, elevated surfaces"
+      },
+      "surface-overlay": {
+        "$value": "oklch(16% 0.02 285)",
+        "$type": "color",
+        "$description": "Modals, drawers"
+      },
+      "surface-input": {
+        "$value": "oklch(10% 0.01 285)",
+        "$type": "color",
+        "$description": "Form inputs, sunken elements"
+      },
+      "on-surface": {
+        "$value": "oklch(92% 0.01 285)",
+        "$type": "color",
+        "$description": "Primary text"
+      },
+      "on-surface-muted": {
+        "$value": "oklch(58% 0.02 285)",
+        "$type": "color",
+        "$description": "Secondary text"
+      },
+      "border": {
+        "$value": "oklch(20% 0.02 285)",
+        "$type": "color",
+        "$description": "Subtle dividers"
+      },
+      "border-strong": {
+        "$value": "oklch(30% 0.03 300)",
+        "$type": "color",
+        "$description": "Prominent borders"
+      },
+      "primary": {
+        "$value": "oklch(45% 0.28 300)",
+        "$type": "color",
+        "$description": "EVA Purple — Unit-01 signature"
+      },
+      "primary-hover": {
+        "$value": "oklch(55% 0.28 300)",
+        "$type": "color",
+        "$description": "Primary hover state"
+      },
+      "secondary": {
+        "$value": "oklch(62% 0.15 195)",
+        "$type": "color",
+        "$description": "NERV Teal — terminal readout"
+      },
+      "accent": {
+        "$value": "oklch(78% 0.18 85)",
+        "$type": "color",
+        "$description": "Entry Amber — biomechanical warmth"
+      },
+      "success": {
+        "$value": "oklch(68% 0.18 155)",
+        "$type": "color",
+        "$description": "Sync OK — green"
+      },
+      "warning": {
+        "$value": "oklch(78% 0.18 85)",
+        "$type": "color",
+        "$description": "Caution — amber"
+      },
+      "error": {
+        "$value": "oklch(58% 0.25 25)",
+        "$type": "color",
+        "$description": "Angel Alert — red"
+      },
+      "info": {
+        "$value": "oklch(62% 0.15 240)",
+        "$type": "color",
+        "$description": "MAGI Blue — analysis"
+      }
+    },
+    "typography": {
+      "family-display": {
+        "$value": "'Orbitron', 'Rajdhani', system-ui, sans-serif",
+        "$type": "fontFamily"
+      },
+      "family-sans": {
+        "$value": "'Geist Sans', 'Inter', system-ui, -apple-system, sans-serif",
+        "$type": "fontFamily"
+      },
+      "family-mono": {
+        "$value": "'Geist Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace",
+        "$type": "fontFamily"
+      },
+      "size-base": {
+        "$value": "0.9375rem",
+        "$type": "dimension"
+      },
+      "weight-bold": {
+        "$value": 700,
+        "$type": "fontWeight"
+      },
+      "weight-black": {
+        "$value": 900,
+        "$type": "fontWeight"
+      }
+    },
+    "spacing": {
+      "1": { "$value": "0.25rem", "$type": "dimension" },
+      "2": { "$value": "0.5rem", "$type": "dimension" },
+      "4": { "$value": "1rem", "$type": "dimension" },
+      "8": { "$value": "2rem", "$type": "dimension" },
+      "16": { "$value": "4rem", "$type": "dimension" },
+      "24": { "$value": "6rem", "$type": "dimension" }
+    },
+    "borderRadius": {
+      "sm": { "$value": "4px", "$type": "dimension" },
+      "md": { "$value": "6px", "$type": "dimension" },
+      "lg": { "$value": "10px", "$type": "dimension" },
+      "xl": { "$value": "12px", "$type": "dimension" }
+    }
+  }
+}

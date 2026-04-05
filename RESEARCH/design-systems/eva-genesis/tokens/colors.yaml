@@ -1,0 +1,243 @@
+# EVA GENESIS v2.0 PRO — Color Tokens
+# Dark mode only. OKLCH color space.
+# Canon-accurate Evangelion palette + NERV HQ interface system
+# Multi-theme: Unit-01 (default), Unit-02, Unit-00, Unit-03, Mark.06
+
+# ═══════════════════════════════════════════════════════════
+# LAYER 1 — PRIMITIVES (canon-sourced)
+# ═══════════════════════════════════════════════════════════
+
+primitive:
+  # Void — Purple-tinted blacks (NERV interior)
+  void-950: "oklch(6% 0.02 290)"
+  void-900: "oklch(8% 0.02 290)"
+  void-850: "oklch(11% 0.02 290)"
+  void-800: "oklch(14% 0.03 290)"
+  void-750: "oklch(18% 0.03 290)"
+  void-700: "oklch(22% 0.03 295)"
+  void-600: "oklch(28% 0.04 300)"
+  void-500: "oklch(36% 0.03 290)"
+  void-400: "oklch(46% 0.03 290)"
+  void-300: "oklch(56% 0.02 290)"
+  void-200: "oklch(70% 0.02 290)"
+  void-100: "oklch(84% 0.01 290)"
+  void-50:  "oklch(93% 0.01 290)"
+
+  # ── EVA UNIT-01 — Purple + Green ──
+  # Canon: #765898 (purple), #52d053 (green)
+  unit01-purple-900: "oklch(16% 0.18 300)"
+  unit01-purple-800: "oklch(22% 0.22 300)"
+  unit01-purple-700: "oklch(30% 0.26 298)"
+  unit01-purple-600: "oklch(36% 0.30 296)"
+  unit01-purple-500: "oklch(42% 0.30 296)"     # ← Canon purple
+  unit01-purple-400: "oklch(50% 0.28 296)"
+  unit01-purple-300: "oklch(60% 0.24 296)"
+  unit01-purple-200: "oklch(72% 0.16 296)"
+
+  unit01-green-800: "oklch(35% 0.18 145)"
+  unit01-green-700: "oklch(48% 0.24 145)"
+  unit01-green-600: "oklch(60% 0.28 145)"
+  unit01-green-500: "oklch(72% 0.30 145)"       # ← Canon neon green
+  unit01-green-400: "oklch(80% 0.28 145)"
+  unit01-green-300: "oklch(88% 0.20 145)"
+
+  # ── EVA UNIT-02 — Red + Orange ──
+  # Canon: #d3290f (red), #e6770b (orange)
+  unit02-red-900: "oklch(20% 0.18 25)"
+  unit02-red-800: "oklch(28% 0.22 25)"
+  unit02-red-700: "oklch(36% 0.26 25)"
+  unit02-red-600: "oklch(44% 0.28 22)"
+  unit02-red-500: "oklch(52% 0.28 22)"          # ← Canon red
+  unit02-red-400: "oklch(62% 0.24 22)"
+  unit02-red-300: "oklch(72% 0.18 22)"
+
+  unit02-orange-600: "oklch(60% 0.20 60)"
+  unit02-orange-500: "oklch(72% 0.22 60)"       # ← Canon tawny orange
+  unit02-orange-400: "oklch(80% 0.18 60)"
+
+  # ── EVA UNIT-00 — Blue/Gold (Rebuild) ──
+  unit00-blue-700: "oklch(35% 0.14 240)"
+  unit00-blue-600: "oklch(45% 0.16 240)"
+  unit00-blue-500: "oklch(55% 0.18 240)"        # ← Canon blue
+  unit00-blue-400: "oklch(65% 0.16 240)"
+
+  unit00-gold-600: "oklch(65% 0.18 85)"
+  unit00-gold-500: "oklch(78% 0.20 85)"         # ← Canon gold visor
+  unit00-gold-400: "oklch(86% 0.16 85)"
+
+  # ── EVA UNIT-03 — Black + Red ──
+  unit03-dark-700: "oklch(12% 0.01 290)"
+  unit03-dark-600: "oklch(16% 0.02 290)"
+  unit03-dark-500: "oklch(20% 0.02 290)"
+  unit03-crimson-500: "oklch(42% 0.24 15)"
+
+  # ── MARK.06 — Deep Blue + Yellow ──
+  mark06-blue-700: "oklch(28% 0.18 260)"
+  mark06-blue-600: "oklch(36% 0.22 260)"
+  mark06-blue-500: "oklch(44% 0.24 260)"        # ← Canon deep blue
+  mark06-yellow-500: "oklch(82% 0.20 95)"       # ← Canon yellow trim
+
+  # ── NERV INTERFACE COLORS ──
+  # Canon: Orange text (#FF9900), Green grid (#00FF00), Cyan data (#00FFFF)
+  nerv-orange-600: "oklch(68% 0.20 65)"
+  nerv-orange-500: "oklch(78% 0.22 65)"         # ← NERV HQ primary text
+  nerv-orange-400: "oklch(86% 0.18 65)"
+
+  nerv-green-600: "oklch(60% 0.26 142)"
+  nerv-green-500: "oklch(78% 0.30 142)"         # ← Terminal grid lines
+  nerv-green-400: "oklch(88% 0.24 142)"
+
+  nerv-cyan-600: "oklch(60% 0.14 200)"
+  nerv-cyan-500: "oklch(76% 0.16 200)"          # ← Data readouts
+  nerv-cyan-400: "oklch(86% 0.12 200)"
+
+  # ── SPECIAL PHENOMENA ──
+  lcl-amber-500: "oklch(72% 0.18 75)"           # LCL fluid (original)
+  lcl-red-500: "oklch(48% 0.22 25)"             # LCL (End of Eva / Rebuild)
+  at-field-orange-500: "oklch(75% 0.20 60)"     # AT Field barrier
+  angel-core-red-500: "oklch(50% 0.28 22)"      # Angel core
+  berserk-red-500: "oklch(55% 0.30 20)"         # Berserk mode eyes
+
+  # ── STATUS (MAGI-derived) ──
+  magi-approve-500: "oklch(72% 0.26 145)"       # MAGI approve
+  magi-deny-500: "oklch(55% 0.25 25)"           # MAGI deny
+  magi-pending-500: "oklch(78% 0.20 65)"        # MAGI pending
+  pattern-blue-500: "oklch(62% 0.18 240)"       # Angel detection
+
+# ═══════════════════════════════════════════════════════════
+# LAYER 2 — SEMANTIC (default theme: UNIT-01)
+# ═══════════════════════════════════════════════════════════
+
+semantic:
+  # ── Surfaces ──
+  surface:          "$primitive.void-950"
+  surface-raised:   "$primitive.void-850"
+  surface-overlay:  "$primitive.void-800"
+  surface-input:    "$primitive.void-900"
+  surface-glass:    "oklch(12% 0.04 296 / 0.6)"
+  surface-hover:    "$primitive.void-750"
+
+  # ── Content ──
+  on-surface:          "$primitive.void-50"
+  on-surface-muted:    "$primitive.void-300"
+  on-surface-disabled: "$primitive.void-500"
+
+  # ── Borders ──
+  border:          "$primitive.void-750"
+  border-strong:   "$primitive.void-600"
+  border-focus:    "$primitive.unit01-purple-400"
+
+  # ── Brand (Unit-01 default) ──
+  primary:            "$primitive.unit01-purple-500"
+  primary-hover:      "$primitive.unit01-purple-400"
+  primary-active:     "$primitive.unit01-purple-600"
+  primary-foreground: "$primitive.void-50"
+  primary-muted:      "$primitive.unit01-purple-900"
+
+  secondary:            "$primitive.unit01-green-500"
+  secondary-hover:      "$primitive.unit01-green-400"
+  secondary-active:     "$primitive.unit01-green-600"
+  secondary-foreground: "$primitive.void-950"
+
+  accent:            "$primitive.nerv-orange-500"
+  accent-hover:      "$primitive.nerv-orange-400"
+  accent-active:     "$primitive.nerv-orange-600"
+  accent-foreground: "$primitive.void-950"
+
+  # ── NERV Interface ──
+  nerv-text:       "$primitive.nerv-orange-500"
+  nerv-grid:       "$primitive.nerv-green-500"
+  nerv-data:       "$primitive.nerv-cyan-500"
+
+  # ── Status (MAGI) ──
+  success:            "$primitive.magi-approve-500"
+  success-surface:    "oklch(12% 0.08 145)"
+  success-foreground: "$primitive.nerv-green-400"
+
+  warning:            "$primitive.magi-pending-500"
+  warning-surface:    "oklch(12% 0.07 65)"
+  warning-foreground: "$primitive.nerv-orange-400"
+
+  error:            "$primitive.magi-deny-500"
+  error-surface:    "oklch(12% 0.08 25)"
+  error-foreground: "$primitive.unit02-red-400"
+
+  info:            "$primitive.pattern-blue-500"
+  info-surface:    "oklch(12% 0.06 240)"
+  info-foreground: "$primitive.nerv-cyan-400"
+
+  # ── Special FX ──
+  glow-primary:   "$primitive.unit01-purple-400"
+  glow-secondary: "$primitive.unit01-green-500"
+  glow-nerv:      "$primitive.nerv-orange-500"
+  glow-danger:    "$primitive.berserk-red-500"
+  glow-sync:      "$primitive.magi-approve-500"
+  glow-at-field:  "$primitive.at-field-orange-500"
+  glow-pattern-blue: "$primitive.pattern-blue-500"
+
+  # ── Phenomena ──
+  lcl:          "$primitive.lcl-amber-500"
+  lcl-red:      "$primitive.lcl-red-500"
+  at-field:     "$primitive.at-field-orange-500"
+  angel-core:   "$primitive.angel-core-red-500"
+  berserk:      "$primitive.berserk-red-500"
+
+# ═══════════════════════════════════════════════════════════
+# LAYER 3 — THEME VARIANTS
+# Apply via CSS class on <html>: .theme-unit02, .theme-unit00, etc.
+# ═══════════════════════════════════════════════════════════
+
+themes:
+  unit-01:
+    label: "EVA-01 — Purple + Green"
+    primary: "$primitive.unit01-purple-500"
+    primary-hover: "$primitive.unit01-purple-400"
+    secondary: "$primitive.unit01-green-500"
+    secondary-hover: "$primitive.unit01-green-400"
+    glow-primary: "$primitive.unit01-purple-400"
+    glow-secondary: "$primitive.unit01-green-500"
+
+  unit-02:
+    label: "EVA-02 — Red + Orange"
+    primary: "$primitive.unit02-red-500"
+    primary-hover: "$primitive.unit02-red-400"
+    secondary: "$primitive.unit02-orange-500"
+    secondary-hover: "$primitive.unit02-orange-400"
+    glow-primary: "$primitive.unit02-red-400"
+    glow-secondary: "$primitive.unit02-orange-500"
+
+  unit-00:
+    label: "EVA-00 — Blue + Gold"
+    primary: "$primitive.unit00-blue-500"
+    primary-hover: "$primitive.unit00-blue-400"
+    secondary: "$primitive.unit00-gold-500"
+    secondary-hover: "$primitive.unit00-gold-400"
+    glow-primary: "$primitive.unit00-blue-400"
+    glow-secondary: "$primitive.unit00-gold-500"
+
+  unit-03:
+    label: "EVA-03 — Black + Crimson"
+    primary: "$primitive.unit03-dark-500"
+    primary-hover: "$primitive.unit03-dark-600"
+    secondary: "$primitive.unit03-crimson-500"
+    secondary-hover: "$primitive.unit02-red-400"
+    glow-primary: "$primitive.unit03-crimson-500"
+    glow-secondary: "$primitive.unit02-red-500"
+
+  mark-06:
+    label: "Mark.06 — Deep Blue + Yellow"
+    primary: "$primitive.mark06-blue-500"
+    primary-hover: "$primitive.mark06-blue-600"
+    secondary: "$primitive.mark06-yellow-500"
+    secondary-hover: "$primitive.nerv-orange-400"
+    glow-primary: "$primitive.mark06-blue-500"
+    glow-secondary: "$primitive.mark06-yellow-500"
+
+  nerv-terminal:
+    label: "NERV Terminal — Orange + Green"
+    primary: "$primitive.nerv-orange-500"
+    primary-hover: "$primitive.nerv-orange-400"
+    secondary: "$primitive.nerv-green-500"
+    secondary-hover: "$primitive.nerv-green-400"
+    glow-primary: "$primitive.nerv-orange-500"
+    glow-secondary: "$primitive.nerv-green-500"

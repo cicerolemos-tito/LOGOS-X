@@ -1,0 +1,127 @@
+# EVA GENESIS — Motion Tokens v1.0.0
+# Cinematic, weighted, purposeful. Entry plug startup energy.
+# Implementation: Framer Motion (preferred) or CSS @keyframes
+
+philosophy: "cinematic"
+
+easing:
+  nerv:    "cubic-bezier(0.16, 1, 0.3, 1)"          # Primary — smooth decel (MAGI processing)
+  alert:   "cubic-bezier(0.68, -0.55, 0.27, 1.55)"  # Overshoot — attention grab
+  deploy:  "cubic-bezier(0.25, 0.46, 0.45, 0.94)"   # Measured — entry plug insertion
+  spring:  "cubic-bezier(0.34, 1.56, 0.64, 1)"      # Energetic — micro-interactions
+  linear:  "linear"                                   # Data streams, progress bars
+
+duration:
+  instant:   "100ms"     # Micro-feedback (button active state)
+  fast:      "200ms"     # Hover, toggles, small state changes
+  normal:    "350ms"     # Panel transitions, card reveals
+  slow:      "600ms"     # Page transitions, hero entrance
+  dramatic:  "1000ms"    # Full sequence reveals, AT Field materialization
+  cinematic: "1500ms"    # Staggered hero entrance, boot sequence
+
+# ═══════════════════════════════════════════════════════════
+# SIGNATURE ANIMATIONS (Framer Motion variants)
+# ═══════════════════════════════════════════════════════════
+
+animations:
+  entry-plug-slide:
+    description: "Primary reveal — slide up with scale"
+    initial: { opacity: 0, y: 24, scale: 0.96 }
+    animate: { opacity: 1, y: 0, scale: 1 }
+    transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] }
+
+  at-field-shimmer:
+    description: "Subtle glow pulse on focus/active elements"
+    animate:
+      boxShadow:
+        - "0 0 20px oklch(45% 0.28 300 / 0.3)"
+        - "0 0 30px oklch(55% 0.35 300 / 0.5)"
+        - "0 0 20px oklch(45% 0.28 300 / 0.3)"
+    transition: { duration: 2, repeat: "Infinity", ease: "easeInOut" }
+
+  magi-boot:
+    description: "Staggered letter-by-letter heading reveal"
+    initial: { opacity: 0, y: 8 }
+    animate: { opacity: 1, y: 0 }
+    transition: { staggerChildren: 0.03, delayChildren: 0.1 }
+
+  sync-pulse:
+    description: "Rhythmic glow for status indicators"
+    animate:
+      opacity: [1, 0.5, 1]
+      scale: [1, 1.05, 1]
+    transition: { duration: 2, repeat: "Infinity", ease: "easeInOut" }
+
+  pattern-blue:
+    description: "Red alert flash for error states"
+    animate:
+      backgroundColor:
+        - "oklch(15% 0.08 25)"
+        - "oklch(20% 0.12 25)"
+        - "oklch(15% 0.08 25)"
+    transition: { duration: 1.5, repeat: 2, ease: "easeInOut" }
+
+  fade-in:
+    description: "Simple opacity fade"
+    initial: { opacity: 0 }
+    animate: { opacity: 1 }
+    transition: { duration: 0.35, ease: [0.16, 1, 0.3, 1] }
+
+  stagger-container:
+    description: "Container for staggered children"
+    animate: { transition: { staggerChildren: 0.08, delayChildren: 0.15 } }
+
+  stagger-item:
+    description: "Child item in stagger container"
+    initial: { opacity: 0, y: 16 }
+    animate: { opacity: 1, y: 0 }
+    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] }
+
+  scroll-reveal:
+    description: "IntersectionObserver trigger — fade + slide"
+    initial: { opacity: 0, y: 40 }
+    whileInView: { opacity: 1, y: 0 }
+    viewport: { once: true, margin: "-10%" }
+    transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] }
+
+  at-field-shimmer:
+    description: "AT Field orange pulsing barrier glow"
+    animate:
+      boxShadow:
+        - "0 0 20px oklch(75% 0.20 60 / 0.2)"
+        - "0 0 40px oklch(75% 0.20 60 / 0.4)"
+        - "0 0 20px oklch(75% 0.20 60 / 0.2)"
+    transition: { duration: 3, repeat: "Infinity", ease: "easeInOut" }
+
+  berserk-flash:
+    description: "Berserk mode red alert flash"
+    animate:
+      backgroundColor:
+        - "oklch(12% 0.08 25)"
+        - "oklch(18% 0.14 20)"
+        - "oklch(12% 0.08 25)"
+      borderColor:
+        - "oklch(55% 0.30 20 / 0.5)"
+        - "oklch(55% 0.30 20 / 0.9)"
+        - "oklch(55% 0.30 20 / 0.5)"
+    transition: { duration: 0.8, repeat: "Infinity", ease: "easeInOut" }
+
+  nerv-scanline:
+    description: "CRT scanline effect for NERV terminal panels"
+    animate:
+      backgroundPosition: ["0 0", "0 100%"]
+    transition: { duration: 8, repeat: "Infinity", ease: "linear" }
+
+  lcl-fill:
+    description: "LCL fluid filling animation (bottom-up amber)"
+    initial: { height: "0%" }
+    animate: { height: "100%" }
+    transition: { duration: 2, ease: [0.25, 0.46, 0.45, 0.94] }
+
+# ═══════════════════════════════════════════════════════════
+# REDUCED MOTION
+# ═══════════════════════════════════════════════════════════
+
+reduced_motion:
+  note: "When prefers-reduced-motion is active, replace all animations with instant opacity fade (duration: 0.1s)"
+  strategy: "opacity-only"

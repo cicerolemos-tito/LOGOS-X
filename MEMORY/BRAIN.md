@@ -16,3 +16,4 @@ O ecossistema LOGOS-X agora possui a capacidade de **Visão Computacional** e **
 - **🟡 YELLOW:** Sincronizar logs de auditoria visual com o Dashboard OmniRoute.
 - **🔴 RED:** Repositórios externos (Riaworks, OmniRoute) requerem Fork para commits permanentes via Git.
 `n- [SKILL ADDED] Five Vitals (v1.0.0): Diagn�stico de integridade estrutural (SII) para sistemas, squads e agentes. Instalada em .gemini/skills/five-vitals.`n
+`n- [DESIGN SYSTEM ADDED] EVA GENESIS PRO (v2.0.0): Design System NERV-Canon (OKLCH/Tailwind v4) para interfaces t�ticas e dashboards. Local: LOGOS-X/RESEARCH/design-systems/eva-genesis.`n
