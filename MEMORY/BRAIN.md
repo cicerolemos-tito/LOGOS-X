@@ -17,3 +17,4 @@ O ecossistema LOGOS-X agora possui a capacidade de **VisÃ£o Computacional** e **
 - **ðŸ”´ RED:** RepositÃ³rios externos (Riaworks, OmniRoute) requerem Fork para commits permanentes via Git.
 `n- [SKILL ADDED] Five Vitals (v1.0.0): Diagnóstico de integridade estrutural (SII) para sistemas, squads e agentes. Instalada em .gemini/skills/five-vitals.`n
 `n- [DESIGN SYSTEM ADDED] EVA GENESIS PRO (v2.0.0): Design System NERV-Canon (OKLCH/Tailwind v4) para interfaces táticas e dashboards. Local: LOGOS-X/RESEARCH/design-systems/eva-genesis.`n
+`n- [UPGRADE: AUTONOMOUS COORDINATION] Claw Code (v2.0.0): Integração de filosofia de coordenação OmX/OmO. LOGOS-X assume a Diretriz de Autonomia Assíncrona (humano decide, agentes laboram em paralelo).`n- [SKILL REPOSITORY] Claw Code Python Port: Localizado em LOGOS-X/RESEARCH/skills/claw-code-src para refatoração autonoma.`n
