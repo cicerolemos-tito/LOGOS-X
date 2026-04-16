@@ -1,5 +1,9 @@
 [submodule "pro"]
-	path = pro
+	path = APP_LOGOS/pro
 	url = https://github.com/SynkraAI/aiox-pro.git
 	branch = main
 	ignore = dirty
+[submodule "packages/mempalace"]
+	path = APP_LOGOS/mempalace
+[submodule "packages/claw-code"]
+	path = APP_LOGOS/claw-code
