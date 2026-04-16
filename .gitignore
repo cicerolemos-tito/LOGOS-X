@@ -13,3 +13,7 @@ Tutorial IA CÍCERO/
 LOGOS-X.txt
 PROMPTS-LOGOS-X.txt
 auth_tokens.json
+
+# LOGOS-X DMZ: Zona Isolada
+TEMP_LOGOS/
+

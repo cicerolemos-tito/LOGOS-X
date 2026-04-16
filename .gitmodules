@@ -1,9 +1,9 @@
 [submodule "pro"]
-	path = APP_LOGOS/pro
+	path = APP_Production_ReadyTools/APP_AioxPro_EliteSuite
 	url = https://github.com/SynkraAI/aiox-pro.git
 	branch = main
 	ignore = dirty
 [submodule "packages/mempalace"]
-	path = APP_LOGOS/mempalace
+	path = APP_Production_ReadyTools/APP_MemoryEngine_VectorSearch
 [submodule "packages/claw-code"]
-	path = APP_LOGOS/claw-code
+	path = APP_Production_ReadyTools/APP_ClawHarness_RustOrchestrator
