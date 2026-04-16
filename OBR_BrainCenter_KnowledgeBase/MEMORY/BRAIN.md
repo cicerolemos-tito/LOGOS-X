@@ -32,3 +32,9 @@ O ecossistema LOGOS-X agora possui a capacidade de **VisÃ£o Computacional** e **
 `n- [DESIGN SYSTEM ADDED] EVA GENESIS PRO (v2.0.0): Design System NERV-Canon (OKLCH/Tailwind v4) para interfaces tï¿½ticas e dashboards. Local: LOGOS-X/RESEARCH/design-systems/eva-genesis.`n
 `n- [UPGRADE: AUTONOMOUS COORDINATION] Claw Code (v2.0.0): Integraï¿½ï¿½o de filosofia de coordenaï¿½ï¿½o OmX/OmO. LOGOS-X assume a Diretriz de Autonomia Assï¿½ncrona (humano decide, agentes laboram em paralelo).`n- [SKILL REPOSITORY] Claw Code Python Port: Localizado em LOGOS-X/RESEARCH/skills/claw-code-src para refatoraï¿½ï¿½o autonoma.`n
 `n- [SQUAD ADDED] Flywheel Core (v1.0.0): Super Sistema de Agentes Autï¿½nomos (Reasoning, Memory, Tools, Feedback). Implementaï¿½ï¿½o da metodologia Agent Flywheel com Plan Space de alta densidade e Memï¿½ria Executï¿½vel (Beads). Local: LOGOS-X/squads/flywheel-core.`n- [UPGRADE: ARCHITECTURAL RIGOR] LOGOS-X adota a Lei 15 (Flywheel Rigor): Proibida a escrita de cï¿½digo de produï¿½ï¿½o sem validaï¿½ï¿½o prï¿½via do Plan Space pelo FlywheelArchitect.`n
+
+## ??? LEI DA IMACULABILIDADE DO CORE
+- O repositório LOGOS-X é estritamente para GOVERNANÇA e LEIS.
+- PROIBIDO subir código de aplicações (APP_), projetos (PRJ_) ou temporários (TMP_) para este repositório.
+- Cada ferramenta terá seu próprio repositório segregado.
+
