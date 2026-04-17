@@ -38,3 +38,21 @@ O ecossistema LOGOS-X agora possui a capacidade de **VisÃ£o Computacional** e **
 - PROIBIDO subir código de aplicações (APP_), projetos (PRJ_) ou temporários (TMP_) para este repositório.
 - Cada ferramenta terá seu próprio repositório segregado.
 
+
+## ?? UPGRADE 360: INTEGRAÇÃO RTK (2026-04-16)
+### ??? FUNDAÇÃO: Kernel de Execução Rust (RTK) assimilado para otimização de performance.
+### ?? LEIS: PROTOCOLO DE WORKTREES - Permitida a execução de agentes em ramificações paralelas para evitar 'locks' de arquivos.
+### ?? SKILLS: Ingestão do System Architect e Rust-Specialist do ecossistema RTK.
+### ?? SQUAD: Criado o laboratório PRJ_LabRTK_Integration para fusão Claw+RTK.
+
+
+## ?? UPGRADE 360: INTEGRAÇÃO MINIMAX (2026-04-16)
+### ??? FUNDAÇÃO: Estudo do Runtime Bun para performance de streaming.
+### ?? SKILLS: Ingestão de protocolos de voz e streaming de tokens do ecossistema MiniMax.
+### ?? SQUAD: Criado o laboratório PRJ_LabMiniMax_Streaming para otimização de latência.
+
+
+## ? LEI DE EFICIÊNCIA DE STREAMING (2026-04-16)
+- **PROTOCOL SSE (Server-Sent Events):** Toda resposta de IA longa deve usar o padrão de geradores assíncronos para reduzir a latência percebida.
+- **PROMPT MULTIMODAL:** Ao gerar mídia (Vídeo/Voz), usar as flags de controle de MiniMax para garantir consistência de personagem e estilo.
+
