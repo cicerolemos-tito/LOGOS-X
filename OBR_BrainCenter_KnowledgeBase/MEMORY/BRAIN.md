@@ -56,3 +56,9 @@ O ecossistema LOGOS-X agora possui a capacidade de **VisÃ£o Computacional** e **
 - **PROTOCOL SSE (Server-Sent Events):** Toda resposta de IA longa deve usar o padrão de geradores assíncronos para reduzir a latência percebida.
 - **PROMPT MULTIMODAL:** Ao gerar mídia (Vídeo/Voz), usar as flags de controle de MiniMax para garantir consistência de personagem e estilo.
 
+
+## ??? LEI 19: ESCALABILIDADE SEGREGADA (INFRAESTRUTURA)
+- **NUNCA SUJAR O CORE:** Proibido subir código bruto de APPs para o repositório LOGOS-X.
+- **REPOSITÓRIOS SATÉLITES:** Cada ferramenta (Claw, Memory, SquadFactory) DEVE ter seu próprio repositório.
+- **SYNC SCRIPT:** O uso do conector 'sync-logos-x.ps1' é obrigatório para manter a integridade global.
+
