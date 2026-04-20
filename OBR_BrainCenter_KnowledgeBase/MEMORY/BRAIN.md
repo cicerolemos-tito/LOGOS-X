@@ -1,4 +1,4 @@
-## 🛡️ CONSTITUIÇÃO LOGOS-X: LEI DE SEGREGAÇÃO TÁTICA (v4.0)
+## 🛡️ CONSTITUIÇÃO LOGOS-X: LEI DE SEGREGAÇÃO TÁTICA ({{PULSE}})
 
 Todas as operações devem seguir a classificação em 5 linhas:
 
@@ -22,6 +22,11 @@ Todas as operações devem seguir a classificação em 5 linhas:
 - **O PULSO É A VERDADE:** Toda informação de versão, estado e mandato DEVE ser lida do `SSOT_PULSE.json`.
 - **PROIBIÇÃO DE HARDCODING:** É terminantemente proibido escrever versões manuais (ex: "v2.1") em cabeçalhos de arquivos. Use a tag de referência `{{SYSTEM_PULSE}}`.
 - **SINCRONIA MANDATÓRIA:** Todo agente, ao iniciar um turno, deve realizar a "Injeção Telepática" lendo o estado atual do Núcleo. Isso garante que nenhum arquivo se perca no tempo.
+
+## 🛡️ LEI 23: LEI DO VÁCUO (ANTI-HARDCODE)
+- **PROIBIÇÃO DE RASTRO FÍSICO:** É proibido escrever o número da versão do sistema em qualquer arquivo. Toda referência deve ser feita via Tag Fantasma `{{PULSE}}`.
+- **PROJEÇÃO DINÂMICA:** O sistema de versão é uma emanação do `SSOT_PULSE.json`. Se o pulso mudar, o sistema inteiro muda sem que um único bit de texto seja alterado nos arquivos subordinados.
+- **SANEAMENTO DE DRIFT:** O `SSOT_GUARDIAN` deve incinerar qualquer versão estática encontrada, substituindo-a imediatamente pela tag de projeção.
 
 ---
 
