@@ -67,3 +67,8 @@ O ecossistema LOGOS-X agora possui a capacidade de **VisÃ£o Computacional** e **
 - **REPOSITï¿½RIOS SATï¿½LITES:** Cada ferramenta (Claw, Memory, SquadFactory) DEVE ter seu prï¿½prio repositï¿½rio.
 - **SYNC SCRIPT:** O uso do conector 'sync-logos-x.ps1' ï¿½ obrigatï¿½rio para manter a integridade global.
 
+
+### ?? UPGRADE HF 360: MULTI-SERVER ORCHESTRATION (2026-04-16)
+- **AGENTE MULTI-FONTE:** O LOGOS-X agora pode consolidar ferramentas de múltiplos servidores MCP simultaneamente.
+- **LÓGICA SMOLAGENTS:** Adotado o padrão CodeAgent para maior flexibilidade em tarefas de pesquisa.
+

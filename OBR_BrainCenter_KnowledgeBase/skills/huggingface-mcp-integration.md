@@ -2,11 +2,11 @@
 
 Capacidade de orquestração e descoberta de modelos, datasets e Spaces via Model Context Protocol (MCP).
 
-## Capacidades Técnicas
-- **Model Search:** Busca semântica e por tags em 1.2M+ de modelos.
-- **Dataset Explorer:** Análise de estruturas de dados e metadados de datasets.
-- **Space Discovery:** Interação com aplicativos Gradio como ferramentas funcionais.
-- **Safe Python Execution:** Execução local segura de scripts gerados por IA via `smolagents`.
+## Capacidades Técnicas (Upgrade V2.0)
+- **Multi-Server Integration:** Suporte para consolidar ferramentas de múltiplos servidores MCP em um único contexto de execução.
+- **CodeAgent Pattern:** Preferência por execução via código gerado por IA para chamadas de ferramentas complexas.
+- **Lifecycle Management:** Uso de gerenciadores de contexto para abertura e fechamento seguro de processos de servidor.
+- **Sandboxed Python Executor:** Integração com o ecossistema `smolagents` para execução segura.
 
 ## Configuração Mandatória
 O servidor deve ser invocado via `npx` com o `HF_TOKEN` protegido em variáveis de ambiente locais.
