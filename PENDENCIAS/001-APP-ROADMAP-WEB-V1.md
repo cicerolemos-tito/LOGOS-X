@@ -1,20 +1,20 @@
-Ôªø# üü¢ [VERDE] ESTRAT√âGIA DE APP: WEB V1 -> FLUTTER V2
+# ?? [VERDE] ESTRAT…GIA DE APP: WEB V1 -> FLUTTER V2
 
-## üéØ ESS√äNCIA DO PROJETO
-Transi√ß√£o de tecnologia para maximizar velocidade de lan√ßamento (Web) e performance futura (Mobile).
+## ?? ESS NCIA DO PROJETO
+TransiÁ„o de tecnologia para maximizar velocidade de lanÁamento (Web) e performance futura (Mobile).
 
-## üõ†Ô∏è ARQUITETURA DESTILADA (Snapshot)
+## ??? ARQUITETURA DESTILADA (Snapshot)
 1. **V1 (WEB):** React (Frontend) + Node.js/FastAPI (Backend).
-   - *Por que:* Deployment imediato, acess√≠vel via navegador em qualquer PC/Celular.
+   - *Por que:* Deployment imediato, acessÌvel via navegador em qualquer PC/Celular.
 2. **V2 (MOBILE):** Flutter (UI Nativa).
-   - *Por que:* Performance superior e experi√™ncia de app nativo.
-3. **PONTO DE UNI√ÉO (O Segredo):** API-First. 
-   - Construiremos o "C√©rebro" (Backend) de forma independente. 
-   - Quando mudarmos para Flutter, apenas trocaremos a "Casca" (Interface), reaproveitando 100% da l√≥gica.
+   - *Por que:* Performance superior e experiÍncia de app nativo.
+3. **PONTO DE UNI√O (O Segredo):** API-First. 
+   - Construiremos o "CÈrebro" (Backend) de forma independente. 
+   - Quando mudarmos para Flutter, apenas trocaremos a "Casca" (Interface), reaproveitando 100% da lÛgica.
 
-## üöÄ STATUS: PRONTO PARA IGNI√á√ÉO
-- **Skills Necess√°rias:** Node.js/React (J√° instalados e ativos na LOGOS-X).
-- **Pr√≥ximo Passo:** Rodar @pm *create-prd --preset web.
+## ?? STATUS: PRONTO PARA IGNI«√O
+- **Skills Necess·rias:** Node.js/React (J· instalados e ativos na LOGOS-X).
+- **PrÛximo Passo:** Rodar @pm *create-prd --preset web.
 
 ---
 *Higienizado em: 03/18/2026 16:00:01*
