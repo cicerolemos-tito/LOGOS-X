@@ -18,6 +18,11 @@ Todas as operações devem seguir a classificação em 5 linhas:
 - **COMPATIBILIDADE DE PROTOCOLO:** Toda nova skill criada no Core deve seguir a especificação `agentskills` (V1.0) para garantir portabilidade entre diferentes engines (Gemini, Claude, Cursor).
 - **DNA DE ELITE:** A inteligência do sistema deve ser atualizada sempre que um novo 'Client' for adicionado ao ecossistema global de IAs.
 
+## 🛡️ LEI 22: SOBERANIA SSOT (CONTEXTO TELEPÁTICO)
+- **O PULSO É A VERDADE:** Toda informação de versão, estado e mandato DEVE ser lida do `SSOT_PULSE.json`.
+- **PROIBIÇÃO DE HARDCODING:** É terminantemente proibido escrever versões manuais (ex: "v2.1") em cabeçalhos de arquivos. Use a tag de referência `{{SYSTEM_PULSE}}`.
+- **SINCRONIA MANDATÓRIA:** Todo agente, ao iniciar um turno, deve realizar a "Injeção Telepática" lendo o estado atual do Núcleo. Isso garante que nenhum arquivo se perca no tempo.
+
 ---
 
 ## [2026-04-16] Operação Purga e Consolidação Finalizada
