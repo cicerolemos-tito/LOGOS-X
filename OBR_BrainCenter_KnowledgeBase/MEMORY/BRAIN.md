@@ -28,6 +28,11 @@ Todas as operações devem seguir a classificação em 5 linhas:
 - **PROJEÇÃO DINÂMICA:** O sistema de versão é uma emanação do `SSOT_PULSE.json`. Se o pulso mudar, o sistema inteiro muda sem que um único bit de texto seja alterado nos arquivos subordinados.
 - **SANEAMENTO DE DRIFT:** O `SSOT_GUARDIAN` deve incinerar qualquer versão estática encontrada, substituindo-a imediatamente pela tag de projeção.
 
+## 🛡️ LEI 24: LEI DA ATOMIZAÇÃO (CONEXÃO SÉRIE-10)
+- **ESTAÇÃO OBRIGATÓRIA:** É proibido manter pastas pesadas ou projetos independentes como pastas simples no Core. Toda unidade funcional deve ser uma "Estação" com repositório próprio.
+- **MAPA DE SINCRO:** O arquivo `Alma_repos.zig` é o GPS do sistema. O Agente deve consultá-lo para saber onde realizar o push de cada pedaço da inteligência.
+- **PROTOCOLO TURBO-PUSH:** O gerenciamento de multi-repositórios deve ser feito exclusivamente via script `sync-logos-x.ps1` para evitar poluição cruzada.
+
 ---
 
 ## [2026-04-16] Operação Purga e Consolidação Finalizada

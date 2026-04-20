@@ -1,22 +1,27 @@
-# LOGOS-X TURBO-PUSH CONNECTOR (V4.0)
-Write-Host "Iniciando Sincronizacao Global Segregada..." -ForegroundColor Cyan
+# LOGOS-X TURBO-PUSH CONNECTOR SERIES-10 (V32.0)
+Write-Host "--- [INICIANDO TURBO-PUSH LOGOS-X V32.0] ---" -ForegroundColor Cyan
 
-# Lista de Conectores (Caminho -> Remote)
-$connectors = @(
-    @{ "path" = "C:\Users\Cicero\LOGOS-X"; "remote" = "origin" },
-    @{ "path" = "C:\Users\Cicero\LOGOS-X\APP_Production_ReadyTools\APP_ClawHarness_RustOrchestrator"; "remote" = "origin-claw" },
-    @{ "path" = "C:\Users\Cicero\LOGOS-X\APP_Production_ReadyTools\APP_MemoryEngine_VectorSearch"; "remote" = "origin-memory" },
-    @{ "path" = "C:\Users\Cicero\LOGOS-X\APP_Production_ReadyTools\APP_SquadFactory_MultiAgentManager"; "remote" = "origin-squad" },
-    @{ "path" = "C:\Users\Cicero\LOGOS-X\PRJ_SquadSandbox_ExperimentalLab"; "remote" = "origin-sandbox" }
+$stations = @(
+    @{ "name" = "CORE"; "path" = "C:\Users\Cicero\LOGOS-X"; "remote" = "https://github.com/cicerolemos-tito/LOGOS-X.git" },
+    @{ "name" = "SQUAD_FACTORY"; "path" = "C:\Users\Cicero\LOGOS-X\APP_Production_ReadyTools\APP_SquadFactory_MultiAgentManager"; "remote" = "https://github.com/cicerolemos-tito/logos-x-squad-factory.git" },
+    @{ "name" = "CLAW_HARNESS"; "path" = "C:\Users\Cicero\LOGOS-X\APP_Production_ReadyTools\APP_ClawHarness_RustOrchestrator"; "remote" = "https://github.com/cicerolemos-tito/logos-x-claw.git" },
+    @{ "name" = "MEMORY_ENGINE"; "path" = "C:\Users\Cicero\LOGOS-X\APP_Production_ReadyTools\APP_MemoryEngine_VectorSearch"; "remote" = "https://github.com/cicerolemos-tito/logos-x-memory.git" },
+    @{ "name" = "LAB_EXPERIMENTAL"; "path" = "C:\Users\Cicero\LOGOS-X\PRJ_SquadSandbox_ExperimentalLab"; "remote" = "https://github.com/cicerolemos-tito/logos-x-sandbox.git" }
 )
 
-foreach ($conn in $connectors) {
-    if (Test-Path $conn.path) {
-        Write-Host "Atualizando: $(.path)..." -ForegroundColor Yellow
-        Set-Location $conn.path
+foreach ($st in $stations) {
+    if (Test-Path $st.path) {
+        Write-Host "[$($st.name)] Sincronizando..." -ForegroundColor Yellow
+        Set-Location $st.path
+        if (!(Test-Path ".git")) { 
+            git init
+            git remote add origin $st.remote 
+        }
         git add .
-        git commit -m "CHORE: Automated Sync - Protocolo LOGOS-X V4.0" -allow-empty
-        # git push $conn.remote main # Comentado para seguranca inicial
-        Write-Host "Sincronizado com sucesso!" -ForegroundColor Green
+        git commit -m "AUTO-SYNC: Series-10 Hub Update (Kernel v32.0)" --allow-empty
+        # git push origin main --force # Descomente apenas quando os repos remotos existirem
+        Write-Host "[$($st.name)] SUCESSO." -ForegroundColor Green
     }
 }
+Set-Location "C:\Users\Cicero\LOGOS-X"
+Write-Host "--- [HUB TOTALMENTE SINCRONIZADO] ---" -ForegroundColor Cyan
