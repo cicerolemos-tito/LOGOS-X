@@ -13,6 +13,11 @@ Todas as operações devem seguir a classificação em 5 linhas:
 - **RESTRIÇÃO DE IO:** O assistente deve validar permissões de leitura/escrita antes de invocar o `safe-python-executor`.
 - **VALIDAÇÃO SKEPTIC:** O Squad Sparring tem autoridade para bloquear execuções que violem a privacidade de dados do Core.
 
+## 🛡️ LEI 21: OMNI-SKILL ACQUISITION (APRENDIZADO UNIVERSAL)
+- **ESPELHAMENTO TÁTICO:** O LOGOS-X é obrigado a monitorar o catálogo `AgentSkills` e assimilar novas capacidades de IAs concorrentes em tempo real.
+- **COMPATIBILIDADE DE PROTOCOLO:** Toda nova skill criada no Core deve seguir a especificação `agentskills` (V1.0) para garantir portabilidade entre diferentes engines (Gemini, Claude, Cursor).
+- **DNA DE ELITE:** A inteligência do sistema deve ser atualizada sempre que um novo 'Client' for adicionado ao ecossistema global de IAs.
+
 ---
 
 ## [2026-04-16] Operação Purga e Consolidação Finalizada
@@ -69,6 +74,6 @@ O ecossistema LOGOS-X agora possui a capacidade de **Visão Computacional** e **
 
 
 ### ?? UPGRADE HF 360: MULTI-SERVER ORCHESTRATION (2026-04-16)
-- **AGENTE MULTI-FONTE:** O LOGOS-X agora pode consolidar ferramentas de m�ltiplos servidores MCP simultaneamente.
-- **L�GICA SMOLAGENTS:** Adotado o padr�o CodeAgent para maior flexibilidade em tarefas de pesquisa.
+- **AGENTE MULTI-FONTE:** O LOGOS-X agora pode consolidar ferramentas de m�ltiplos servidores MCP simultaneamente.
+- **L�GICA SMOLAGENTS:** Adotado o padr�o CodeAgent para maior flexibilidade em tarefas de pesquisa.
 
