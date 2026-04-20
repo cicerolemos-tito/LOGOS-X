@@ -8,6 +8,11 @@ Todas as operaÃ§Ãµes devem seguir a classificaÃ§Ã£o em 5 linhas:
 4. **TEMP_LOGOS:** DepÃ³sito transitÃ³rio e higienizado. Ãrea de anÃ¡lise para clonagem e extraÃ§Ã£o de conhecimento antes da deleÃ§Ã£o.
 5. **PUSH SEGREGADO:** Todo upload/push para o GitHub deve respeitar essas linhas, subindo para repositÃ³rios independentes para evitar mistura de dependÃªncias e proteger a integridade de cada aplicaÃ§Ã£o.
 
+## ğŸ›¡ï¸ LEI 20: SANDBOXED EXECUTION (MODEL SAFETY)
+- **EXECUÃ‡ÃƒO PROTEGIDA:** Todo cÃ³digo gerado via agentes externos (como Hugging Face smolagents) DEVE ser executado em ambiente isolado (Sandboxed).
+- **RESTRIÃ‡ÃƒO DE IO:** O assistente deve validar permissÃµes de leitura/escrita antes de invocar o `safe-python-executor`.
+- **VALIDAÃ‡ÃƒO SKEPTIC:** O Squad Sparring tem autoridade para bloquear execuÃ§Ãµes que violem a privacidade de dados do Core.
+
 ---
 
 ## [2026-04-16] OperaÃ§Ã£o Purga e ConsolidaÃ§Ã£o Finalizada
@@ -34,31 +39,31 @@ O ecossistema LOGOS-X agora possui a capacidade de **VisÃ£o Computacional** e **
 `n- [SQUAD ADDED] Flywheel Core (v1.0.0): Super Sistema de Agentes Autï¿½nomos (Reasoning, Memory, Tools, Feedback). Implementaï¿½ï¿½o da metodologia Agent Flywheel com Plan Space de alta densidade e Memï¿½ria Executï¿½vel (Beads). Local: LOGOS-X/squads/flywheel-core.`n- [UPGRADE: ARCHITECTURAL RIGOR] LOGOS-X adota a Lei 15 (Flywheel Rigor): Proibida a escrita de cï¿½digo de produï¿½ï¿½o sem validaï¿½ï¿½o prï¿½via do Plan Space pelo FlywheelArchitect.`n
 
 ## ??? LEI DA IMACULABILIDADE DO CORE
-- O repositório LOGOS-X é estritamente para GOVERNANÇA e LEIS.
-- PROIBIDO subir código de aplicações (APP_), projetos (PRJ_) ou temporários (TMP_) para este repositório.
-- Cada ferramenta terá seu próprio repositório segregado.
+- O repositï¿½rio LOGOS-X ï¿½ estritamente para GOVERNANï¿½A e LEIS.
+- PROIBIDO subir cï¿½digo de aplicaï¿½ï¿½es (APP_), projetos (PRJ_) ou temporï¿½rios (TMP_) para este repositï¿½rio.
+- Cada ferramenta terï¿½ seu prï¿½prio repositï¿½rio segregado.
 
 
-## ?? UPGRADE 360: INTEGRAÇÃO RTK (2026-04-16)
-### ??? FUNDAÇÃO: Kernel de Execução Rust (RTK) assimilado para otimização de performance.
-### ?? LEIS: PROTOCOLO DE WORKTREES - Permitida a execução de agentes em ramificações paralelas para evitar 'locks' de arquivos.
-### ?? SKILLS: Ingestão do System Architect e Rust-Specialist do ecossistema RTK.
-### ?? SQUAD: Criado o laboratório PRJ_LabRTK_Integration para fusão Claw+RTK.
+## ?? UPGRADE 360: INTEGRAï¿½ï¿½O RTK (2026-04-16)
+### ??? FUNDAï¿½ï¿½O: Kernel de Execuï¿½ï¿½o Rust (RTK) assimilado para otimizaï¿½ï¿½o de performance.
+### ?? LEIS: PROTOCOLO DE WORKTREES - Permitida a execuï¿½ï¿½o de agentes em ramificaï¿½ï¿½es paralelas para evitar 'locks' de arquivos.
+### ?? SKILLS: Ingestï¿½o do System Architect e Rust-Specialist do ecossistema RTK.
+### ?? SQUAD: Criado o laboratï¿½rio PRJ_LabRTK_Integration para fusï¿½o Claw+RTK.
 
 
-## ?? UPGRADE 360: INTEGRAÇÃO MINIMAX (2026-04-16)
-### ??? FUNDAÇÃO: Estudo do Runtime Bun para performance de streaming.
-### ?? SKILLS: Ingestão de protocolos de voz e streaming de tokens do ecossistema MiniMax.
-### ?? SQUAD: Criado o laboratório PRJ_LabMiniMax_Streaming para otimização de latência.
+## ?? UPGRADE 360: INTEGRAï¿½ï¿½O MINIMAX (2026-04-16)
+### ??? FUNDAï¿½ï¿½O: Estudo do Runtime Bun para performance de streaming.
+### ?? SKILLS: Ingestï¿½o de protocolos de voz e streaming de tokens do ecossistema MiniMax.
+### ?? SQUAD: Criado o laboratï¿½rio PRJ_LabMiniMax_Streaming para otimizaï¿½ï¿½o de latï¿½ncia.
 
 
-## ? LEI DE EFICIÊNCIA DE STREAMING (2026-04-16)
-- **PROTOCOL SSE (Server-Sent Events):** Toda resposta de IA longa deve usar o padrão de geradores assíncronos para reduzir a latência percebida.
-- **PROMPT MULTIMODAL:** Ao gerar mídia (Vídeo/Voz), usar as flags de controle de MiniMax para garantir consistência de personagem e estilo.
+## ? LEI DE EFICIï¿½NCIA DE STREAMING (2026-04-16)
+- **PROTOCOL SSE (Server-Sent Events):** Toda resposta de IA longa deve usar o padrï¿½o de geradores assï¿½ncronos para reduzir a latï¿½ncia percebida.
+- **PROMPT MULTIMODAL:** Ao gerar mï¿½dia (Vï¿½deo/Voz), usar as flags de controle de MiniMax para garantir consistï¿½ncia de personagem e estilo.
 
 
 ## ??? LEI 19: ESCALABILIDADE SEGREGADA (INFRAESTRUTURA)
-- **NUNCA SUJAR O CORE:** Proibido subir código bruto de APPs para o repositório LOGOS-X.
-- **REPOSITÓRIOS SATÉLITES:** Cada ferramenta (Claw, Memory, SquadFactory) DEVE ter seu próprio repositório.
-- **SYNC SCRIPT:** O uso do conector 'sync-logos-x.ps1' é obrigatório para manter a integridade global.
+- **NUNCA SUJAR O CORE:** Proibido subir cï¿½digo bruto de APPs para o repositï¿½rio LOGOS-X.
+- **REPOSITï¿½RIOS SATï¿½LITES:** Cada ferramenta (Claw, Memory, SquadFactory) DEVE ter seu prï¿½prio repositï¿½rio.
+- **SYNC SCRIPT:** O uso do conector 'sync-logos-x.ps1' ï¿½ obrigatï¿½rio para manter a integridade global.
 
